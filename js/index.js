@@ -1,9 +1,5 @@
-new fullpage('#fullpage', {
-    navigation: true,
-    responsiveWidth: 700,
-    anchors: ['home', 'about-us', 'contact'],
-    parallax: true,
-    onLeave: function(origin, destination, direction){
-        console.log("Leaving section" + origin.index);
-    },
-});
+// Sports Radar API
+// Key: qdkyuy8g3d6e4wtpqucqmnfj
+
+// provides scheduled match information for all series we cover 
+// http://api.sportradar.us/cricket-t1/matches/schedule.xml?api_key=qdkyuy8g3d6e4wtpqucqmnfj
